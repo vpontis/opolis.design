@@ -1,5 +1,4 @@
 analytics==0.6.5
-appdirs==1.4.1
 appnope==0.1.0
 blinker==1.4
 contextlib2==0.5.4
