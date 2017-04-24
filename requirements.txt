@@ -1,8 +1,11 @@
 analytics==0.6.5
 appdirs==1.4.1
 appnope==0.1.0
+blinker==1.4
+contextlib2==0.5.4
 decorator==4.0.11
 Flask==0.10.1
+Flask-Script==2.0.5
 ipython==5.1.0
 ipython-genutils==0.1.0
 itsdangerous==0.24
@@ -17,6 +20,7 @@ ptyprocess==0.5.1
 Pygments==2.2.0
 pyparsing==2.1.10
 python-dateutil==1.5
+raven==6.0.0
 redis==2.10.5
 requests==2.13.0
 simplegeneric==0.8.1

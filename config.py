@@ -1,4 +1,4 @@
-class Config(object):
+class DevelopmentConfig(object):
     DEBUG = False
     TESTING = False
     CSRF_ENABLED = True
@@ -8,22 +8,11 @@ class Config(object):
     STRIPE_PUBLIC_KEY = ''
     SEGMENT_WRITE_KEY = ''
 
-    # createsend.com is an alias of campaignmonitor.com
-    CREATE_SEND_API_KEY = ''
-
-    SENTRY_PRIVATE_DSN = ''
-    SENTRY_PUBLIC_DSN = ''
+    STRIPE_SECRET_KEY = 'sk_test_c6CmSmOKbChoRqShPiKTV9yi'
 
 
-class ProductionConfig(Config):
+class ProductionConfig(DevelopmentConfig):
     DEBUG = False
     SECRET_KEY = '\xc4\x1cax\x84\xa6$\xb6Is\xcbuO\x8b@\xa8/~\xda\xd8-1\x0c\xc2Y\x8a'
-
-
-class StagingConfig(Config):
-    DEBUG = True
-
-
-class DevelopmentConfig(Config):
-    DEBUG = True
+    STRIPE_SECRET_KEY = 'sk_live_vKTfuiydeDwca2xmYM7sU9KF'
 
