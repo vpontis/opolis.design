@@ -1,6 +1,6 @@
 $(function () {
   var handler = StripeCheckout.configure({
-    key: 'pk_test_wxQMpcEtVnRcl9jfz8GKfPk8',
+    key: 'pk_live_KLzRFeS7szjMUC5JgGPT3LIV',
     image: 'https://stripe.com/img/documentation/checkout/marketplace.png',
     locale: 'auto',
     zipCode: true,
