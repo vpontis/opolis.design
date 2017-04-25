@@ -6721,10 +6721,17 @@ button.close {
     display: none !important;
   }
 }
+@font-face {
+  font-family: "Traveling Typewriter";
+  src: url("/static/TravelingTypewriter.ttf");
+}
+body {
+  padding: 40px 0;
+  font-family: "Traveling Typewriter", serif;
+}
 .index-container {
   display: flex;
   width: 100%;
-  height: 100%;
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
@@ -6736,7 +6743,20 @@ button.close {
 }
 .index-opolisLogo {
   height: 130px;
+  margin-bottom: 40px;
 }
 .index-opolisPicture {
   height: 400px;
+  margin-bottom: 60px;
+}
+.index-descriptionContainer {
+  max-width: 300px;
+  margin-bottom: 40px;
+}
+.index-buyNowContainer {
+  margin-top: 10px;
+}
+.index-buyTagline {
+  font-size: large;
+  font-weight: bold;
 }
